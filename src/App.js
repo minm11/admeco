@@ -1,11 +1,11 @@
 import React from "react";
 import './App.css';
 //import { Route, Routes } from "react-router-dom"
-import {NavBar} from "./components/NavBar";
-import {SideBar } from "./components/SideBar";
+import NavBar from "./components/NavBar";
+import SideBar from "./components/SideBar";
 
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <NavBar />
@@ -15,5 +15,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
