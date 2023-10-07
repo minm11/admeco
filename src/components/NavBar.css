@@ -11,3 +11,9 @@
 	left: 0;
 	z-index: 1000;
 }
+
+.Navbar h1{
+
+    color: black;
+  font-size: 300%;
+}
