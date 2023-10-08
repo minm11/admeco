@@ -6,7 +6,8 @@ import "./NavBar.css";
 
 
 export default function NavBar(){
-    //3 icons menu search notification
+    return(
+        //3 icons menu search notification
     <div id="Nav" className="Navbar">
         <div className="block">
             <h1>Categories</h1>
@@ -18,4 +19,5 @@ export default function NavBar(){
             />
         </div>
     </div>
+    );
 }
