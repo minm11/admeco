@@ -1,14 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/*/.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    colors: {
-      'blue': '0000FF'
+    zIndex:{
+      '100':'100',
+      '200':'200',
+      '300':'300',
+      '400':'400',
+      '500':'500',
     },
     fontFamily: { 
-      lato: ['Lato', sans-serif];
+      lato: ['Lato', 'sans-serif']
     },
     extend: {},
   },
