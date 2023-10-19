@@ -6,6 +6,7 @@ import SideBar from "./components/SideBar";
 import Home from "./components/Home"
 import Progress from "./components/Progress";
 import Activity from "./components/Activity";
+import Import from "./components/Import";
 import Login from "./components/Login";
 
      
@@ -17,7 +18,8 @@ export default function App() {
 
       
       <Routes>
-        <Route path="/" element={<Home />} /> 
+        <Route path="/" element={<Home />} />
+        <Route path="/Import" element={<Import />} /> 
         <Route path="/Progress" element={<Progress />} /> 
         <Route path="/Activity" element={<Activity />} />
         <Route path="/login" element={<Login />} /> 

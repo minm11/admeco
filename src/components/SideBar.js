@@ -27,13 +27,13 @@ export default function SideBar(){
                     <h1 className="ml-4"> Progress</h1>
                 </li>
             </Link>
-            <Link to="/Activiy" className=""  >
+            <Link to="/Activity" className=""  >
                 <li id="active" className="h-9 bg-[#F9F9F9] items-center ml-2 p-3 mr-[2px] rounded-full mb-3 flex hover:text-[#3C91E6]">
                 <LuLayoutDashboard id="icon dashboard" className=""/>
                 <h1 className="ml-4"> Activity</h1>
                 </li>
             </Link>
-            <Link to="/Activiy" className=" "  >
+            <Link to="/Activity" className=" "  >
                 <li id="active" className="h-9 bg-[#F9F9F9]  items-center ml-2 p-3 mr-[2px] rounded-full mb-3 flex hover:text-[#3C91E6]">
                     <FaFileImport id="icon dashboard" className=""/>
                     <h1 className="ml-4"> import</h1>
