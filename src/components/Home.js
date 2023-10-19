@@ -5,77 +5,84 @@ import {AiOutlineSearch} from 'react-icons/ai'
 import profile from "../assets/profile.jpg"
 export default function Home(){
     return(
-        <div id="main" className="w-[80%]  mx-[20%] shadow-blue-600 rounded-tl-3xl py-9 px-5 font-lato max-h-full overflow-y-auto fixed">
+
+        /*
+            TODO: OBTAIN MORE NIGGERS FROM THE FOREST
+            ? Why nigger?
+        */
+            //TODO: my name is jafar
+            //TODO: i come from afar
+            //TODO: there's a bag in my car
+            //TODO: alahuakbar!!!
+        <div id="main" className="ml-[284px] shadow-blue-600 rounded-tl-3xl pt-9 pb-28 px-5 font-lato max-h-full overflow-y-auto fixed grid grid-cols-1 w-full">
             <div id="headTitle" className="flex items-center justify-between gap-16 flex-wrap">
                 <div id="container left">
                     <h1 className="text-4xl font-semibold mb-5 text-black">Dashboard</h1>
-                    <ul className="flex items-center gap-4">
-                        <li className="text-black">
+                    <div className="flex items-center gap-4">
+                        <div className="text-black">
                             <Link to='/'>Dashboard</Link>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <BiChevronRight id="icon iconchevronRight" className=""/>
-                        </li>
-                        <li>
-
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <ul id="container info" className="grid  lg:grid-cols-4 gap-24 mt-[5%] ml-7">
+            <div id="container info" className="grid  lg:grid-cols-4 gap-24 mt-[5%] ml-6">
                 <div className="items-center flex gap-5 w-[80.5%]">
-                    <li id="box info" className="p-3 bg-red-500   rounded-2xl">
+                    <div id="box info" className="p-3 bg-red-500   rounded-2xl">
                         <BiErrorAlt id="icon iconError" className="  text-white text-6xl"/>
-                    </li>
+                    </div>
                     <div>
                         <h1 className="font-bold text-2xl">20</h1>
                         <p className="whitespace-nowrap">New Failure Student</p>
                     </div>
                 </div>
                 <div className="items-center flex gap-5 w-[80.5%]">
-                    <li id="box info" className="p-3 bg-green-700   rounded-2xl">
+                    <div id="box info" className="p-3 bg-green-700   rounded-2xl">
                         <BiSolidGroup id="icon iconError" className="  text-white text-6xl"/>
-                    </li>
+                    </div>
                     <div>
                         <h1 className="font-bold text-2xl">30</h1>
                         <p>Online</p>
                     </div>
                 </div>
                 <div className="items-center flex gap-5 w-[80.5%]">
-                    <li id="box info" className="p-3 bg-yellow-400   rounded-2xl">
+                    <div id="box info" className="p-3 bg-yellow-400   rounded-2xl">
                         <BiSolidGroup id="icon iconError" className="  text-white text-6xl"/>
-                    </li>
+                    </div>
                     <div>
                         <h1 className="font-bold text-2xl">5</h1>
                         <p className="whitespace-nowrap">Busy User</p>
                     </div>
                 </div>
-            </ul>
-            <div id="table data" className="flex flex-wrap gap-1 mt-20 ml-7 w-full bg-slate-500 text-black">
-                <div id="order" className="grow-1 basis-[55%]">
+            </div>
+            
+            <div id="table data" className="flex gap-5 mt-[68px] ml-6 text-black">
+                <div id="order" className="grow-1 basis-[43%] bg-slate-500">
                     <div id="head" className="flex items-center gap-5 mb-8">
                         <h1 className="text-2xl mr-auto font-semibold ">Progress</h1>
                         <AiOutlineSearch/> <BiFilter/>
                     </div>
                     <table className="w-full border-collapse">
                         <thead>
-                            <tr>
-                                <th className="pb-12 text-sm text-left bottom-1 border-solid border-white">student</th>
-                                <th className="pb-12 text-sm text-left bottom-1 border-solid border-white">date Progress</th>
-                                <th className="pb-12 text-sm text-left bottom-1 border-solid border-white">status</th>
+                            <tr className="border-b-[1px]">
+                                <th className="pb-1 text-sm text-left bottom-1 border-solid border-[#eee]">student</th>
+                                <th className="pb-1 text-sm text-left bottom-1 border-solid border-[#eee]">date Progress</th>
+                                <th className="pb-1 text-sm text-left bottom-1 border-solid border-[#eee]">status</th>
                             </tr>
                         </thead>
-                        <tbody>
-							<tr className=" bg-slate-600">
-								<td className="flex">
-									<img  className="h-7" src={profile} alt=""/>
+                        <tbody className="">
+							<tr className="h-10  items-center bg-slate-600">
+								<td className="flex ">
+									<img  className="h-10" src={profile} alt=""/>
 									<p>Ron Jericho manzano</p>
 								</td>
 								<td>28-09-2023</td>
 								<td><span class="status Passed">Passed</span></td>
 							</tr>
-							<tr className="  ">
+							<tr className="h-10">
                                 <td className="flex">
 									<img className="h-7" src={profile} alt=""/>
 									<p>Vincent Baliuag</p>
@@ -83,11 +90,12 @@ export default function Home(){
 								<td>28-09-2023</td>
 								<td><span class="status Failure">Failure</span></td>
 							</tr>
-							<tr className="  ">
+							<tr className=" ">
                                 <td className="flex">
 									<img className="h-7" src={profile} alt=""/>
 									<p>Alto Alexander</p>
 								</td>
+                                
 								<td>28-09-2023</td>
 								<td><span class="status Improving">Improving</span></td>
 							</tr>
@@ -99,31 +107,25 @@ export default function Home(){
 								<td>28-09-2023</td>
 								<td><span class="status Failure">Failure</span></td>
 							</tr>
-							<tr className="  ">
-                                <td className="flex">
-									<img className="h-7" src={profile} alt=""/>
-									<p>Arive Junio</p>
-								</td>
-								<td>28-09-2023</td>
-								<td><span class="status Passed">Improving</span></td>
-							</tr>
+							
 						</tbody>
                     </table>
                 </div>
 
-                <div id="Activity" className="grow-1 basis-[55%]">
-                    <div id="head" className="flex items-center gap-6 mb-8">
-                    <h1 className="text-2xl  font-semibold ">Activity</h1>
+                <div id="Activity" className="grow  ">
+                    <div id="head" className="flex gap-6 mb-7">
+                        <h1 className="text-2xl  font-semibold ">Activity</h1>
                     </div>
-                    <ul className="w-full">
-                        <li className="border-x-2"><h1>tite</h1></li>
-                        <li className="border-x-2"><h1>tite</h1></li>
-                        <li className="border-x-2"><h1>tite</h1></li>
-                        <li className="border-x-2"><h1>tite</h1></li>
-                        <li className="border-x-2"><h1>tite</h1></li>
+                    <ul className="">
+                        <li className="border-x-2  mb-5 bg-[#eee] rounded-lg px-14 py-6  "><h1>tite</h1></li>
+                        <li className="border-x-2  mb-5 bg-[#eee] rounded-lg px-14 py-6  "><h1>tite</h1></li>
+                        <li className="border-x-2  mb-5 bg-[#eee] rounded-lg px-14 py-6  "><h1>tite</h1></li>
+                        <li className="border-x-2  mb-5 bg-[#eee] rounded-lg px-14 py-6  "><h1>tite</h1></li>
+                        <li className="border-x-2  mb-5 bg-[#eee] rounded-lg px-14 py-6  "><h1>tite</h1></li>
                     </ul>
                 </div>
             </div>
+            
         </div>
     );
 }

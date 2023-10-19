@@ -8,8 +8,8 @@ import profile from "../assets/profile.jpg"
 export default function NavBar(){
     return(
         //3 icons menu search notification
-    <div id="Nav" className='overflow-hidden h-14 bg-[#3C91E6] px-64 flex items-center gap-24 font-lato sticky top-0 left-0 z-0'>
-        <div className="pl-12">
+    <div id="Nav" className='overflow-hidden h-14 bg-[#3C91E6] pl-64 flex items-center gap-24 font-lato sticky top-0 left-0 z-0'>
+        <div className="pl-12  hover:text-[#F9F9F9]">
             
             <AiOutlineMenu className="icon iconmenu"/>
             
@@ -31,7 +31,7 @@ export default function NavBar(){
         <div className="flex ">
             <input type="checkbox" id="switch-mode" hidden></input>
             <PiBellSimpleFill className="text-[20px]"/>
-            <img className="h-9 w-9 " src={profile} alt=""></img>
+            <img className="h-9 w-9 mr-10 rounded-full items-center flex" src={profile} alt=""/>
         </div>
     </div>
     
