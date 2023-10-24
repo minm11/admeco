@@ -9,12 +9,8 @@ export default function NavBar(){
     return(
         //3 icons menu search notification
     <div id="Nav" className='overflow-hidden h-14 bg-[#3C91E6] pl-64 flex items-center gap-24 font-lato sticky top-0 left-0 z-0'>
-        <div className="pl-12  hover:text-[#F9F9F9]">
-            
-            <AiOutlineMenu className="icon iconmenu"/>
-            
-        </div>
-        <div className="flex w-screen">
+        
+        <div className="flex w-screen pl-10">
             <div id="searchbarcontainer" className="bg-white rounded-l-full flex justify-between w-[67%] h-9">
             <input
                 id="searchbar"
@@ -28,10 +24,8 @@ export default function NavBar(){
             </div>
         </div>
         
-        <div className="flex ">
-            <input type="checkbox" id="switch-mode" hidden></input>
-            <PiBellSimpleFill className="text-[20px]"/>
-            <img className="h-9 w-9 mr-10 rounded-full items-center flex" src={profile} alt=""/>
+        <div className="h-10 bg-slate-400 rounded-full w-[60px] mr-10 border-rose-500 border  ">
+            
         </div>
     </div>
     
