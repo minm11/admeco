@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/admeco/static/css/main.195c6706.css",
+    "main.js": "/admeco/static/js/main.fe1d41f9.js",
+    "static/js/787.45fb03af.chunk.js": "/admeco/static/js/787.45fb03af.chunk.js",
+    "static/media/Lato-Regular.ttf": "/admeco/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "static/media/sti_logo.png": "/admeco/static/media/sti_logo.0ae7eff90a155fb9782b.png",
+    "index.html": "/admeco/index.html",
+    "main.195c6706.css.map": "/admeco/static/css/main.195c6706.css.map",
+    "main.fe1d41f9.js.map": "/admeco/static/js/main.fe1d41f9.js.map",
+    "787.45fb03af.chunk.js.map": "/admeco/static/js/787.45fb03af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.195c6706.css",
+    "static/js/main.fe1d41f9.js"
+  ]
+}
