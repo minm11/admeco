@@ -45,7 +45,7 @@ export default function SideBar(){
                 </li>
             </button>
             
-                {isOpen &&(
+                {isOpen ?(
                     <Link to="/Activity" className=""  >
                         <li id="active" className="h-9 bg-[#F9F9F9] items-center ml-2 p-3 mr-[2px] rounded-full mb-3 flex hover:text-[#3C91E6]">
                             <PiClipboardTextBold id="icon Activity" className=""/>
@@ -55,12 +55,12 @@ export default function SideBar(){
                     
                     
                 ) : (
-                <Link to="/Activity" className=""  >
+                <Link to="/Login" className=""  >
                 <li id="active" className="h-9 bg-[#F9F9F9] items-center ml-2 p-3 mr-[2px] rounded-full mb-3 flex hover:text-[#3C91E6]">
                     <PiClipboardTextBold id="icon Activity" className=""/>
-                    <h1 className="ml-4"> Activity</h1>
+                    <h1 className="ml-4"> Login EX</h1>
                 </li>
-            </Link> )}
+                </Link> )}
             
                 
             
