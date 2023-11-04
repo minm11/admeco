@@ -6,7 +6,7 @@ import profile from "../assets/profile.jpg"
 
 export default function Progress(){
     return(
-        <div id="main" className="ml-[284px] shadow-blue-600 rounded-tl-3xl pt-9 pb-28 px-5 font-lato max-h-full overflow-y-auto fixed  w-full">
+        <div id="main" className=" shadow-blue-600 rounded-tl-3xl pt-9 pb-28 px-5 font-lato max-h-full overflow-y-auto   w-full">
             <div id="headTitle" className="flex items-center justify-between gap-16 flex-wrap">
                 <div id="container left">
                     <h1 className="text-4xl font-semibold mb-5 text-black">Progress</h1>
@@ -42,7 +42,7 @@ export default function Progress(){
 								</td>
 								<td>Midterm</td>
 								<td>28-09-2023</td>
-								<td><span class="status Passed">Passed</span></td>
+								<td><span className="status Passed">Passed</span></td>
 							</tr>
 							<tr className="h-24 hover:bg-[#eee]">
                                 <td className="p-7">
@@ -51,7 +51,7 @@ export default function Progress(){
 								</td>
                                 <td>Prelim</td>
 								<td>28-09-2023</td>
-								<td><span class="status Failure">Failure</span></td>
+								<td><span className="status Failure">Failure</span></td>
 							</tr>
 							<tr className=" hover:bg-[#eee]">
                                 <td className=" p-7">
@@ -59,7 +59,7 @@ export default function Progress(){
 								</td>
                                 <td>Finals</td>
 								<td>28-09-2023</td>
-								<td><span class="status Improving">Improving</span></td>
+								<td><span className="status Improving">Improving</span></td>
 							</tr>
 							<tr className="  hover:bg-[#eee]">
                                 <td className="p-7">
@@ -67,7 +67,7 @@ export default function Progress(){
 								</td>
                                 <td>Midterm</td>
 								<td>28-09-2023</td>
-								<td><span class="status Failure">Failure</span></td>
+								<td><span className="status Failure">Failure</span></td>
 							</tr>
 							
 						</tbody>

@@ -18,7 +18,7 @@ export default function Home(){
             //TODO: i come from afar
             //TODO: there's a bag in my car
             //TODO: alahuakbar!!!
-        <div id="main" className="ml-[284px] shadow-blue-600 rounded-tl-3xl pt-9 pb-28 px-5 font-lato max-h-full overflow-y-auto fixed  w-[100%]">
+        <div id="main" className=" shadow-blue-600 rounded-tl-3xl pt-9 pb-28 px-5 font-lato mt-7 max-h-screen overflow-y-auto fixed w-[100%]">
             <div id="headTitle" className="flex items-center justify-between gap-16 flex-wrap">
                 <div id="container left">
                     <h1 className="text-4xl font-semibold mb-5 text-black">Dashboard</h1>
@@ -64,7 +64,7 @@ export default function Home(){
             </div>
             
             <div id="table data" className="flex flex-wrap gap-6 mt-[68px] ml-6 text-black">
-                <div id="order" className="basis-[42%]">
+                <div id="order" className="basis-[52%]">
                     <div id="head" className="flex items-center  gap-5 mb-8">
                         <h1 className="text-2xl mr-auto font-semibold ">Progress</h1>
                         <AiOutlineSearch/> <BiFilter/>
@@ -85,7 +85,7 @@ export default function Home(){
 								</td>
 								
 								<td>28-09-2023</td>
-								<td><span class="status Passed">Passed</span></td>
+								<td><span className="status Passed">Passed</span></td>
 							</tr>
 							<tr className="h-24 hover:bg-[#eee]">
                                 <td className="p-7">
@@ -93,7 +93,7 @@ export default function Home(){
 									<p className="pl-1">Vincent Baliuag</p>
 								</td>
 								<td>28-09-2023</td>
-								<td><span class="status Failure">Failure</span></td>
+								<td><span className="status Failure">Failure</span></td>
 							</tr>
 							<tr className=" hover:bg-[#eee]">
                                 <td className=" p-7">
@@ -101,35 +101,27 @@ export default function Home(){
 								</td>
                                 
 								<td>28-09-2023</td>
-								<td><span class="status Improving">Improving</span></td>
+								<td><span className="status Improving">Improving</span></td>
 							</tr>
 							<tr className="  hover:bg-[#eee]">
                                 <td className="p-7">
 									<p className="pl-1">Ceejay Fajardo</p>
 								</td>
 								<td>28-09-2023</td>
-								<td><span class="status Failure">Failure</span></td>
+								<td><span className="status Failure">Failure</span></td>
 							</tr>
 							
 						</tbody>
                     </table>
                 </div>
 
-            <div id="Activity" className="basis-[35%]  flex gap-5 text-black ">
+            <div id="Activity" className="basis-[45%]  flex gap-5 text-black overflow-y">
                <div id="order"  className="grow ">
                     <div id="head" className="flex mb-7">
                         <h1 className="text-2xl  font-semibold ">Activity</h1>
                     </div>
                     <ul className="">
                         <li className="border-x-2 mb-5 bg-[#eee] rounded-lg px-14 py-6  flex items-center">
-                        <BsCalendar2MinusFill className="text-[#ff0000]"/>
-                           <h1 className="ml-4">tite</h1> 
-                        </li>
-                        <li className="border-x-2  mb-5 bg-[#eee] rounded-lg px-14 py-6  flex items-center">
-                           <BsCalendar2MinusFill className="text-[#00aaff]"/>
-                           <h1 className="ml-4">tite</h1> 
-                        </li>
-                        <li className="border-x-2  mb-5 bg-[#eee] rounded-lg px-14 py-6  flex items-center">
                         <BsCalendar2MinusFill className="text-[#ff0000]"/>
                            <h1 className="ml-4">tite</h1> 
                         </li>
