@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/admeco/static/css/main.195c6706.css",
-    "main.js": "/admeco/static/js/main.78bb9a5e.js",
+    "main.css": "/admeco/static/css/main.1f4acd14.css",
+    "main.js": "/admeco/static/js/main.2ae38c0b.js",
+    "static/js/839.8eccee3d.chunk.js": "/admeco/static/js/839.8eccee3d.chunk.js",
     "static/js/787.45fb03af.chunk.js": "/admeco/static/js/787.45fb03af.chunk.js",
     "static/media/Lato-Regular.ttf": "/admeco/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "static/media/sti_logo.png": "/admeco/static/media/sti_logo.0ae7eff90a155fb9782b.png",
     "index.html": "/admeco/index.html",
-    "main.195c6706.css.map": "/admeco/static/css/main.195c6706.css.map",
-    "main.78bb9a5e.js.map": "/admeco/static/js/main.78bb9a5e.js.map",
+    "main.1f4acd14.css.map": "/admeco/static/css/main.1f4acd14.css.map",
+    "main.2ae38c0b.js.map": "/admeco/static/js/main.2ae38c0b.js.map",
+    "839.8eccee3d.chunk.js.map": "/admeco/static/js/839.8eccee3d.chunk.js.map",
     "787.45fb03af.chunk.js.map": "/admeco/static/js/787.45fb03af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.195c6706.css",
-    "static/js/main.78bb9a5e.js"
+    "static/css/main.1f4acd14.css",
+    "static/js/main.2ae38c0b.js"
   ]
 }
