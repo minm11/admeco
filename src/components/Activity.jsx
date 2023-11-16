@@ -5,7 +5,7 @@ import {BsCalendar2MinusFill} from 'react-icons/bs'
 
 export default function Activity(){
     return(     
-        <div id="main" className=" shadow-blue-600 rounded-tl-3xl pt-9 pb-28 px-5 font-lato max-h-full overflow-y-auto  w-full">
+        <div id="main" className="  pt-9 pb-28 px-5 font-lato mt-7 max-h-full overflow-y-auto  w-full">
             <div id="headTitle" className="flex items-center justify-between gap-16 flex-wrap">
                 <div id="container left">
                     <h1 className="text-4xl font-semibold mb-5 text-black">Activity</h1>

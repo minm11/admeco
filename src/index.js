@@ -13,13 +13,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <MsalProvider instance={msalinstance}>
   <React.StrictMode>
-   
     <HashRouter>
       <Routes>
         <Route path='/*' element={<App msalinstance={msalinstance}/>}/>
       </Routes>
     </HashRouter>
-    
   </React.StrictMode>
   </MsalProvider>
 );

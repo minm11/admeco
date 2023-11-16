@@ -1,15 +1,18 @@
-import React, { useState, useEffect } from "react";
-import supabase from "../supabaseClient";
-//import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineSearch } from "react-icons/ai";
 import logo from "../assets/sti_logo.png";
-import { PiBellSimpleFill } from "react-icons/pi";
-import profile from "../assets/profile.jpg";
 import Login from "./Login";
 
-export default function NavBar({ setOpenMenu, openMenu, msalinstance, setUser, setUserAzure }) {
+export default function NavBar({
+  setOpenMenu,
+  openMenu,
+  msalinstance,
+  setUser,
+  setUserAzure,
+  user,
+}) {
   const [openLogin, setOpenLogin] = useState(false);
-
+  console.log(user)
   return (
     <div
       id="Nav"
@@ -22,12 +25,15 @@ export default function NavBar({ setOpenMenu, openMenu, msalinstance, setUser, s
         <img className="h-20 " src={logo} alt="" />
         <h1 className="text-[24px] mr-6">ADMECO</h1>
 
-        <a onClick={() => setOpenMenu(!openMenu)}>
-          <AiOutlineMenu
-            id="icon iconmenu"
-            className="text-[20px] hover:text-[#F9F9F9] "
-          />
-        </a>
+            
+            <button onClick={() => setOpenMenu(!openMenu)}>
+            <AiOutlineMenu
+              id="icon iconmenu"
+              className="text-[20px] hover:text-[#F9F9F9] "
+            />
+          </button>
+          
+
       </div>
 
       <div className="flex">
@@ -46,6 +52,9 @@ export default function NavBar({ setOpenMenu, openMenu, msalinstance, setUser, s
           <AiOutlineSearch id="icon" className="text-[20px]" />
         </div>
       </div>
+
+      
+        <div></div>
 
       <div
         onClick={() => setOpenLogin(!openLogin)}

@@ -1,18 +1,17 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import logo from "../assets/sti_logo.png";
 import { LuLayoutDashboard } from "react-icons/lu";
 import { PiClipboardTextBold, PiReadCvLogoFill } from "react-icons/pi";
-import { AiOutlineMenu, AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
+import {  AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
 import { FaBarsProgress, FaFileImport } from "react-icons/fa6";
 
-export default function SideBar({ openMenu, user }) {
+export default function SideBar({  user }) {
   const [isOpen, setIsOpen] = useState(false);
   console.log(user)
   return (
     <div
       id="sidebar"
-      className="top-0 left-0S bg-slate-400 -z-10 h-full mt-16 pt-1 font-lato"
+      className="top-0 left-0S bg-[#EEEEEE] -z-10 h-full mt-16 pt-1 font-lato"
     >
       <div className="side">
         <ul id="sideMenuTop" className="w-100% mt-[51px]">

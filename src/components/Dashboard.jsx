@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import {BiChevronRight, BiFilter, BiErrorAlt, BiSolidGroup} from 'react-icons/bi' 
 import {AiOutlineSearch} from 'react-icons/ai'
 import {BsCalendar2MinusFill} from 'react-icons/bs'
-import { useState } from "react";
 
 
 
@@ -18,7 +17,7 @@ export default function Home(){
             //TODO: i come from afar
             //TODO: there's a bag in my car
             //TODO: alahuakbar!!!
-        <div id="main" className=" shadow-blue-600 rounded-tl-3xl pt-9 pb-28 px-5 font-lato mt-7 max-h-screen overflow-y-auto fixed w-[100%]">
+        <div id="main" className="  pt-9 pb-28 px-5 font-lato mt-7 max-h-screen overflow-y-auto fixed w-[100%]">
             <div id="headTitle" className="flex items-center justify-between gap-16 flex-wrap">
                 <div id="container left">
                     <h1 className="text-4xl font-semibold mb-5 text-black">Dashboard</h1>
@@ -63,11 +62,11 @@ export default function Home(){
                 </div>
             </div>
             
-            <div id="table data" className="flex flex-wrap gap-6 mt-[68px] ml-6 text-black">
+            <div id="table data" className="flex flex-wrap gap-6 mt-[68px] ml-6 text-black overflow-y">
                 <div id="order" className="basis-[52%]">
                     <div id="head" className="flex items-center  gap-5 mb-8">
                         <h1 className="text-2xl mr-auto font-semibold ">Progress</h1>
-                        <AiOutlineSearch/> <BiFilter/>
+                        <AiOutlineSearch/> 
                     </div>
                     <table className="w-full border-collapse">
                         <thead>
